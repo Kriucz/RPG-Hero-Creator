@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: #5c5b5b;
+}
+
+.form {
+	padding: 1rem;
+	max-width: 30rem;
+	margin: 2rem auto;
+	border: 2px solid rgb(77, 36, 13);
+	border-radius: 5px;
+	background: linear-gradient(180deg, #7e4930, #ce5a24);
+}
+h2 {
+	text-align: center;
+}
+
+label {
+	font-weight: bold;
+	margin: 1rem 0 0 0;
+	display: block;
+}
+
+input {
+	width: 100%;
+	margin: 0.2rem 0 0 0;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #dba88a;
+	border: 2px solid rgb(77, 36, 13);
+}
+
+.add-hero {
+	position: absolute;
+	right: 0px;
+	top: 2px;
+	width: 10rem;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #dba88a;
+	border: 2px solid rgb(77, 36, 13);
+}
+.button-area {
+	margin: 0.5rem 0 0 0;
+	position: relative;
+	width: 100%;
+	height: 34px;
+}
+
+button:hover {
+	background-color: #f1b795;
+}
+
+.cards {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem auto;
+	padding: 1rem;
+	max-width: 30rem;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	color: rgb(255, 217, 192);
+	background: linear-gradient(45deg, #493931, #493931, #a54417);
+}
+
+.cards p {
+	width: 30%;
+	margin: 0 1rem;
+	padding-top: 0.15rem;
+}
+
+ul {
+	padding: 0px;
+}
+.delete {
+	border-radius: 5px;
+	background-color: #dba88a;
+	border: 2px solid rgb(77, 36, 13);
+	font-weight: bold;
+}
